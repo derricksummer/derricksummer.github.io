@@ -1,12 +1,12 @@
 const apps = [
   {
-    name: "Your App Name",
-    slug: "your-app",
-    status: "Coming soon",
-    summary: "A short description of the app goes here.",
+    name: "급식지킴이",
+    slug: "meal-guardian",
+    status: "App Store review",
+    summary: "학교 급식을 확인하고 아이의 알레르기·주의 식품이 들어간 메뉴를 미리 알려주는 앱",
     appStoreUrl: "#",
-    privacyUrl: "/privacy/your-app.html",
-    supportUrl: "/support/your-app.html"
+    privacyUrl: "/privacy/meal-guardian.html",
+    supportUrl: "/support/meal-guardian.html"
   }
 ];
 
