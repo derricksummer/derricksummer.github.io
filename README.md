@@ -128,7 +128,7 @@ privacy/new-app.html
 3. Replace:
    - `Your App Name`
    - `REPLACE_WITH_EFFECTIVE_DATE`
-   - `REPLACE_WITH_SUPPORT_EMAIL`
+   - support email address, if it changes later
    - SDK and data collection descriptions
    - Any text that does not match the actual app behavior
 
@@ -162,7 +162,7 @@ support/new-app.html
    - app description
    - FAQ answers
    - troubleshooting details
-   - `REPLACE_WITH_SUPPORT_EMAIL`
+   - support email address, if it changes later
    - privacy policy link
 
 Each support page is designed to be suitable as an Apple App Store Support URL.
@@ -233,7 +233,7 @@ After deployment, confirm these URLs work:
 Before production use, replace:
 
 - `pub-REPLACE_WITH_MY_PUBLISHER_ID` in `app-ads.txt`
-- `REPLACE_WITH_SUPPORT_EMAIL` in HTML files
+- support email address, if it changes later
 - `REPLACE_WITH_EFFECTIVE_DATE` in privacy policy pages
 - `Your App Name`
 - placeholder app descriptions, FAQ answers, and App Store URLs
