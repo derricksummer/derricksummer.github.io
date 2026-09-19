@@ -7,6 +7,15 @@ const apps = [
     appStoreUrl: "#",
     privacyUrl: "/privacy/meal-guardian.html",
     supportUrl: "/support/meal-guardian.html"
+  },
+  {
+    name: "하루씩 · Day by Day",
+    slug: "day-by-day",
+    status: "Coming soon",
+    summary: "시작하거나 끊은 지 며칠째인지 큰 숫자로 보여주고, 그 순간을 카드로 공유하는 앱. Count the days since you started, one big number at a time.",
+    appStoreUrl: "#",
+    privacyUrl: "/privacy/day-by-day.html",
+    supportUrl: "/support/day-by-day.html"
   }
 ];
 
