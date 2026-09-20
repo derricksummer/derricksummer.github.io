@@ -28,6 +28,15 @@ const apps = [
     appStoreUrl: "#",
     privacyUrl: "/privacy/shh-cut.html",
     supportUrl: "/support/shh-cut.html"
+  },
+  {
+    name: "또알림",
+    slug: "ddoalrim",
+    status: "Coming soon",
+    summary: "머리 자르기, 렌즈 교체, 검진처럼 주기적으로 반복하는 생활 관리를 대신 기억해 다음 예정일을 알려주는 리마인더 앱",
+    appStoreUrl: "#",
+    privacyUrl: "/privacy/ddoalrim.html",
+    supportUrl: "/support/ddoalrim.html"
   }
 ];
 
