@@ -38,6 +38,15 @@ const apps = [
     appStoreUrl: "#",
     privacyUrl: "/privacy/ddoalrim.html",
     supportUrl: "/support/ddoalrim.html"
+  },
+  {
+    name: "시계 학습",
+    slug: "clock-friends",
+    status: "Coming soon",
+    summary: "아날로그 시계 읽기와 맞추기를 6단계 코스로 연습하는 학습 앱. 하루 일과, 미션, 퀴즈로 반복해서 익혀요.",
+    appStoreUrl: "#",
+    privacyUrl: "/privacy/clock-friends.html",
+    supportUrl: "/support/clock-friends.html"
   }
 ];
 
