@@ -11,6 +11,7 @@ const apps = [
   {
     name: "하루씩 · Day by Day",
     slug: "day-by-day",
+    icon: "/assets/img/day-by-day.png",
     status: "Coming soon",
     summary: "시작하거나 끊은 지 며칠째인지 큰 숫자로 보여주고, 그 순간을 카드로 공유하는 앱. Count the days since you started, one big number at a time.",
     appStoreUrl: "#",
@@ -19,6 +20,7 @@ const apps = [
   {
     name: "쉿컷 · shh.cut",
     slug: "shh-cut",
+    icon: "/assets/img/shh-cut.png",
     status: "Coming soon",
     summary: "셔터 소리 없이 찍고, 내 문구를 도장처럼 남기고, 친구와 네컷을 만드는 감성 카메라. A silent camera: shoot quietly, stamp it, strip it.",
     appStoreUrl: "#",
@@ -50,6 +52,20 @@ function renderAppList() {
 
       titleWrap.append(title, status);
 
+      const identity = document.createElement("div");
+      identity.className = "app-card__identity";
+      if (app.icon) {
+        const icon = document.createElement("img");
+        icon.className = "app-card__icon";
+        icon.src = app.icon;
+        icon.alt = "";
+        icon.loading = "lazy";
+        icon.width = 56;
+        icon.height = 56;
+        identity.append(icon);
+      }
+      identity.append(titleWrap);
+
       const summary = document.createElement("p");
       summary.className = "app-card__summary";
       summary.textContent = app.summary;
@@ -71,7 +87,7 @@ function renderAppList() {
         links.appendChild(link);
       });
 
-      header.appendChild(titleWrap);
+      header.appendChild(identity);
       item.append(header, summary, links);
       target.appendChild(item);
     });

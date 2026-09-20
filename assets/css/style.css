@@ -188,6 +188,21 @@ a:hover {
   gap: 16px;
 }
 
+.app-card__identity {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.app-card__icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 13px;
+  border: 1px solid var(--border);
+  object-fit: cover;
+  flex: none;
+}
+
 .app-card h3 {
   margin: 0;
   font-size: 1.25rem;
