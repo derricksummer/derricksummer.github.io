@@ -15,7 +15,15 @@ const apps = [
     summary: "시작하거나 끊은 지 며칠째인지 큰 숫자로 보여주고, 그 순간을 카드로 공유하는 앱. Count the days since you started, one big number at a time.",
     appStoreUrl: "#",
     privacyUrl: "/privacy/day-by-day.html",
-    supportUrl: "/support/day-by-day.html"
+    supportUrl: "/support/day-by-day.html"  },
+  {
+    name: "쉿컷 · shh.cut",
+    slug: "shh-cut",
+    status: "Coming soon",
+    summary: "셔터 소리 없이 찍고, 내 문구를 도장처럼 남기고, 친구와 네컷을 만드는 감성 카메라. A silent camera: shoot quietly, stamp it, strip it.",
+    appStoreUrl: "#",
+    privacyUrl: "/privacy/shh-cut.html",
+    supportUrl: "/support/shh-cut.html"
   }
 ];
 
