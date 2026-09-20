@@ -2,6 +2,7 @@ const apps = [
   {
     name: "급식지킴이",
     slug: "meal-guardian",
+    icon: "/assets/img/meal-guardian.png",
     status: "App Store review",
     summary: "학교 급식을 확인하고 아이의 알레르기·주의 식품이 들어간 메뉴를 미리 알려주는 앱",
     appStoreUrl: "#",
@@ -16,7 +17,8 @@ const apps = [
     summary: "시작하거나 끊은 지 며칠째인지 큰 숫자로 보여주고, 그 순간을 카드로 공유하는 앱. Count the days since you started, one big number at a time.",
     appStoreUrl: "#",
     privacyUrl: "/privacy/day-by-day.html",
-    supportUrl: "/support/day-by-day.html"  },
+    supportUrl: "/support/day-by-day.html"
+  },
   {
     name: "쉿컷 · shh.cut",
     slug: "shh-cut",
