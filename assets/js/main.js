@@ -33,9 +33,9 @@ const apps = [
     name: "또알림",
     slug: "ddoalrim",
     icon: "/assets/img/ddoalrim.png",
-    status: "Coming soon",
+    status: "Available on the App Store",
     summary: "머리 자르기, 렌즈 교체, 검진처럼 주기적으로 반복하는 생활 관리를 대신 기억해 다음 예정일을 알려주는 리마인더 앱",
-    appStoreUrl: "#",
+    appStoreUrl: "https://apps.apple.com/app/id6814084090",
     privacyUrl: "/privacy/ddoalrim.html",
     supportUrl: "/support/ddoalrim.html"
   },
