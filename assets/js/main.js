@@ -57,6 +57,16 @@ const apps = [
     appStoreUrl: "https://apps.apple.com/app/id6811534604",
     privacyUrl: "/privacy/math-collector.html",
     supportUrl: "/support/math-collector.html"
+  },
+  {
+    name: "퇴근까지",
+    slug: "toegeunkkaji",
+    icon: "/assets/img/toegeunkkaji.png",
+    status: "Coming soon",
+    summary: "오늘 번 돈과 퇴근까지 남은 시간을 실시간으로 확인하고, 귀여운 캐릭터와 함께 하루의 수고를 기록·공유하는 앱",
+    appStoreUrl: "#",
+    privacyUrl: "/privacy/toegeunkkaji.html",
+    supportUrl: "/support/toegeunkkaji.html"
   }
 ];
 
