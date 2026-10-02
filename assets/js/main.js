@@ -1,5 +1,15 @@
 const apps = [
   {
+    name: "또갈집 · Go Again",
+    slug: "goagain",
+    icon: "/assets/img/goagain.png",
+    status: "Coming soon",
+    summary: "별점 대신 ‘또 갈래 / 애매하긴 해 / 한 번이면 됐어’만 기록하는 나만의 맛집 다이어리. Remember only whether you'd go again.",
+    appStoreUrl: "#",
+    privacyUrl: "/privacy/goagain.html",
+    supportUrl: "/support/goagain.html"
+  },
+  {
     name: "급식지킴이",
     slug: "meal-guardian",
     icon: "/assets/img/meal-guardian.png",
