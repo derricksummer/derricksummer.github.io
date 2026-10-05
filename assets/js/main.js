@@ -20,14 +20,14 @@ const apps = [
     supportUrl: "/support/day-by-day.html"
   },
   {
-    name: "쉿컷 · shh.cut",
-    slug: "shh-cut",
-    icon: "/assets/img/shh-cut.png",
+    name: "RunCut",
+    slug: "runcut",
+    icon: "/assets/img/runcut.png",
     status: "Coming soon",
-    summary: "셔터 소리 없이 찍고, 내 문구를 도장처럼 남기고, 친구와 네컷을 만드는 감성 카메라. A silent camera: shoot quietly, stamp it, strip it.",
+    summary: "오늘 뛴 거리·시간·페이스를 사진과 영상에 담는 러닝 인증샷 카메라. A running camera that puts your run on your photos and videos.",
     appStoreUrl: "#",
-    privacyUrl: "/privacy/shh-cut.html",
-    supportUrl: "/support/shh-cut.html"
+    privacyUrl: "/privacy/runcut.html",
+    supportUrl: "/support/runcut.html"
   },
   {
     name: "또알림",
