@@ -1,15 +1,5 @@
 const apps = [
   {
-    name: "급식지킴이",
-    slug: "meal-guardian",
-    icon: "/assets/img/meal-guardian.png",
-    status: "App Store review",
-    summary: "학교 급식을 확인하고 아이의 알레르기·주의 식품이 들어간 메뉴를 미리 알려주는 앱",
-    appStoreUrl: "#",
-    privacyUrl: "/privacy/meal-guardian.html",
-    supportUrl: "/support/meal-guardian.html"
-  },
-  {
     name: "하루씩 · Day by Day",
     slug: "day-by-day",
     icon: "/assets/img/day-by-day.png",
