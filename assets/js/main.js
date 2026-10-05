@@ -20,16 +20,6 @@ const apps = [
     supportUrl: "/support/day-by-day.html"
   },
   {
-    name: "RunCut",
-    slug: "runcut",
-    icon: "/assets/img/runcut.png",
-    status: "Coming soon",
-    summary: "오늘 뛴 거리·시간·페이스를 사진과 영상에 담는 러닝 인증샷 카메라. A running camera that puts your run on your photos and videos.",
-    appStoreUrl: "#",
-    privacyUrl: "/privacy/runcut.html",
-    supportUrl: "/support/runcut.html"
-  },
-  {
     name: "또알림",
     slug: "ddoalrim",
     icon: "/assets/img/ddoalrim.png",
