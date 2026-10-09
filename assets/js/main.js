@@ -8,16 +8,6 @@ const apps = [
     appStoreUrl: "#",
     privacyUrl: "/privacy/day-by-day.html",
     supportUrl: "/support/day-by-day.html"
-  },
-  {
-    name: "수학 연산 도감 · Math Collector",
-    slug: "math-collector",
-    icon: "/assets/img/math-collector.png",
-    status: "Available on the App Store",
-    summary: "더하기·빼기·곱셈·나눗셈을 미션과 60초 번개 도전으로 풀고, 모은 별로 도감 친구를 찾는 숫자 놀이 앱",
-    appStoreUrl: "https://apps.apple.com/app/id6811534604",
-    privacyUrl: "/privacy/math-collector.html",
-    supportUrl: "/support/math-collector.html"
   }
 ];
 
